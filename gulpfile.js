@@ -16,7 +16,11 @@ nested = require('postcss-nested'),
 
 browserSync = require('browser-sync').create(),
 
-mixins = require('postcss-mixins');
+mixins = require('postcss-mixins'),
+
+require('./src/tasks/gulp/sprites');
+
+require('gulp-rename');
 
 
 
